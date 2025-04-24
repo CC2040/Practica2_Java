@@ -1,6 +1,5 @@
 package org.uax.menu;
 import javax.swing.*;
-import javax.swing.text.JTextComponent;
 import java.awt.*;
 import java.awt.event.*;
 
