@@ -33,17 +33,7 @@ public class Ciudades {
             }
         }
     }
-    public void mostrarCiudades(){
-        if(ciudades == null || ciudades.isEmpty()) {
-            System.out.println("No hay ciudades en la lista.");
 
-        }else{
-            System.out.print("Ciudades: ");
-            for (Ciudad ciudad : ciudades) {
-                System.out.print("["+ciudad.toString()+"] ");
-            }
-        }
-    }
     public boolean contenido(Ciudad ciudad, TreeSet<Ciudad> ciudades) {
         if (ciudades == null || ciudad == null) {
             return false;
